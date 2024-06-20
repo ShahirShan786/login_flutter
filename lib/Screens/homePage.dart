@@ -15,10 +15,10 @@ class HomePAge extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Contacts",style: TextStyle(fontSize: 25,fontFamily: "Roboto font",fontWeight: FontWeight.w700),),
-        backgroundColor: prymaryColor,
+        backgroundColor: Colors.yellow,
         foregroundColor: Colors.white,
         actions: [
-          Text("Sing Out"),
+          Text("Sing out"),
           IconButton(onPressed: (){
             exit(context);
           },
